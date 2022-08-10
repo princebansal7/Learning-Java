@@ -1,5 +1,5 @@
 
-// Takking Command line arguments
+// Taking Command line arguments
 
 class AddNum {
     public static void main(String []args){
