@@ -27,3 +27,20 @@ public class MaxInThreeNum {
          }
     }
 }
+
+// NOTE:
+// in C/C++
+//     if(Non_Zero_value)
+//     {
+// 
+//     }  => this is allowed due to implicit type casting => non zero value get converted to true
+// But in Java:
+// doing above thing is not allowed as narrowing ( going big range to small) isn't allowed => gives error
+// => if(true){
+//
+//    }
+
+// => if(false){
+// 
+//    }     
+// => only this is allowed => only boolean value is allowed in while(), if() etc conditions
