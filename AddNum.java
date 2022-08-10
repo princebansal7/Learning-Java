@@ -15,8 +15,12 @@ class AddNum {
         // parseDouble() => converts numeric string to double & belongs to Wrapper class Double
         //  & are Static methods that's why gets called using Class name
 
+        // genetates NumberFormatException in case of wrong argument
+
         // parseCharater => Does not Exists
 
+
+        // Array index cross => ArrayIndexOutOfBound Exception
 
         int x = Integer.parseInt(args[0]);
         int y = Integer.parseInt(args[1]);
@@ -35,3 +39,5 @@ class AddNum {
         System.out.println("Multiplication is "+ x*y); // x*y have high priority => gets solved first then, concatenates
     }
 }
+
+// At Runtime if Java doesn't resolve the error or something it's called Exception
