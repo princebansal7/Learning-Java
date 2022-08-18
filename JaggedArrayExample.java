@@ -17,12 +17,12 @@ public class JaggedArrayExample {
             }
         }
 
-        for (int[] sale : salesman) {
+        for (int[] sales : salesman) {
             int sum = 0;
-            for (int val : sale) {
+            for (int val : sales) {
                 sum += val;
             }
-            System.out.println("Sum is: " + (sum));
+            System.out.println("Total sale is: " + (sum));
         }
 
     }
