@@ -10,5 +10,4 @@ public class p6 {
         else
             System.out.println("Zero");
     }
-
 }
